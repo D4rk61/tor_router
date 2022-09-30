@@ -1,6 +1,6 @@
 --=[ INSTALACION ]=--
 
-Como anteriormente mentione este script no trata de la instalacion del programa solo
+Como anteriormente mencione este script no trata de la instalacion del programa solo
 esta hecho para automatizar su uso, use esta pagina para realizar la instalacion
 [Documentacion en Ingles]
 
