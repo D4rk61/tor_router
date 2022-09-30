@@ -1,0 +1,63 @@
+--=[ INSTALACION ]=--
+
+Como anteriormente mentione este script no trata de la instalacion del programa solo
+esta hecho para automatizar su uso, use esta pagina para realizar la instalacion
+[Documentacion en Ingles]
+
+https://www.kitploit.com/2019/06/tor-router-tool-that-allow-you-to-make.html?m=0
+
+Ingresar a este link en el cual podra descargar tor-router
+
+
+
+[Instrucciones]
+
+[ !PORFAVOR SEGUIRLAS AL PIE DE LA LETRA! ]
+
+
+> Abrir una terminal normal 
+
+sudo pacman -S tor-router
+git clone https://gitlab.com/edu4rdshl/tor-router.git && cd ./tor-router && sudo bash install.sh
+
+> Abrir una termnal como usuario root
+
+sudo su
+git clone https://gitlab.com/edu4rdshl/tor-router.git && cd tor-router/files
+
+#Ir al final del fichero /etc/tor/torrc 
+#Y pegar las siguientes lineas de codigo
+-----------------------------------------------------
+
+# Seting up TOR transparent proxy for tor-router
+VirtualAddrNetwork 10.192.0.0/10
+AutomapHostsOnResolve 1
+TransPort 9040
+DNSPort 5353
+
+-----------------------------------------------------
+
+> Reiniciar al "tor.service"
+sudo systemctl restart tor.service
+
+> correr el siguiente script como root
+sudo ./tor-router
+
+
+Pagina para verificar si el proceso funciono:
+    https://check.torproject.org/
+
+puede ejecutarse tambien con links
+
+
+-----------------------------------------------------
+
+
+    --=[ DESINSTALACION ]=--
+
+Es muy simple deshabilitamos el servicio de tor.router, (tambien se puede usar mi script)
+
+sudo systemctl disable tor-router.service
+Y eliminamos las lineas del fichero /etc/tor/torrc
+
+Podemos guardar las lineas por si nos arrepentimos luego
