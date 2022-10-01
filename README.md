@@ -69,7 +69,8 @@ Una Maravilla no..?</p>
 
 
   
-  ![imagen](https://user-images.githubusercontent.com/99152614/193372442-2d3b40f6-d4e9-417a-8892-649f20fb9442.png)
+  ![imagen](https://user-images.githubusercontent.com/99152614/193373151-8d6d3ae2-a833-4098-bd58-887d916f9ac5.png)
+
 
   
 
