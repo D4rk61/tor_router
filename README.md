@@ -29,7 +29,9 @@ Automatizacion e instalacion del servicio tor-router el cual nos creara un route
 <p> Como muestra el ejemplo, imaginemos que cada servidor es de un pais, nuestra ubicacion nunca sera la real, !Advertencia! Esto no quiere decir que estemos 100% seguros, de hecho ningun sistema es 100% seguro, solo seria una barrera de seguridad; eso en resumidas cuentas es el servicio tor, protocolo que viaja por el siguiente puerto: 
 
 PORT     STATE SERVICE
+
 9040/tcp open  tor-trans
+  
 9050/tcp open  tor-socks
 
 <h3> Servicio tor en conjunto de tor-router</h3>
