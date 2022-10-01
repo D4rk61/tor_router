@@ -26,10 +26,13 @@ Automatizacion e instalacion del servicio tor-router el cual nos creara un route
 
 ![imagen](https://user-images.githubusercontent.com/99152614/193369967-4a1aad49-06c5-4951-a8b2-ce2a9418c90b.png)
 
+
 <p> Como muestra el ejemplo, imaginemos que cada servidor es de un pais, nuestra ubicacion nunca sera la real, !Advertencia! Esto no quiere decir que estemos 100% seguros, de hecho ningun sistema es 100% seguro, solo seria una barrera de seguridad; eso en resumidas cuentas es el servicio tor, protocolo que viaja por el siguiente puerto: 
 
   PORT     STATE SERVICE
+  
   9040/tcp open  tor-trans
+  
   9050/tcp open  tor-socks
 
 <h3> Servicio tor en conjunto de tor-router</h3>
@@ -49,3 +52,15 @@ Una Maravilla no..?</p>
 
 <h4>  -Conexiones lentas/rapidas: </h4>
 <p>   Las personas experimentadas con tor sabran que usar este servidor es muy tardado por el cambio de nodos anteriormente explicado, ya que aveces, estaremos conectados en un pais con una conexion al otro lado del mundo y aveces con un pais cercano, las conexiones aveces llegan a tal punto, que se caera el internet en ciertos puntos </p>
+
+
+
+<h4>  -Acceso denegado a ciertos sitios: </h4>
+<P>   Tor browser es mal visto por algunos paises o servicios, por su mala reputacion que se ha ganado, algunos servicios estaran deshabilitados
+  
+  -CISCO
+  -Netflix
+  
+  Son solo algunos ejemplos <p>
+  
+
