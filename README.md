@@ -25,3 +25,27 @@ Automatizacion e instalacion del servicio tor-router el cual nos creara un route
 <h3>Un ejemplo de como funciona </h3>
 
 ![imagen](https://user-images.githubusercontent.com/99152614/193369967-4a1aad49-06c5-4951-a8b2-ce2a9418c90b.png)
+
+<p> Como muestra el ejemplo, imaginemos que cada servidor es de un pais, nuestra ubicacion nunca sera la real, !Advertencia! Esto no quiere decir que estemos 100% seguros, de hecho ningun sistema es 100% seguro, solo seria una barrera de seguridad; eso en resumidas cuentas es el servicio tor, protocolo que viaja por el siguiente puerto: 
+
+PORT     STATE SERVICE
+9040/tcp open  tor-trans
+9050/tcp open  tor-socks
+
+<h3> Servicio tor en conjunto de tor-router</h3>
+
+<p> Bien, ahora que explique brevemente como funciona el servicio tor. Explicare para que sirve el servicio de tor router, nuestra ip solo estara oculta delntro del navegador web, eso quiere decir que si enviamos una imagen, por facebook o telegram, esta viajara por la "clean web", para eso viene tor router.
+
+CUalquier navegador / programa que usemos cuando tengamos activo nuestro "router" sera enviado y encriptado por la red tor, habia olvidado, las conexiones que viajan por el puerto 9050 / 9040 que es el puerto donde viaja la informacion cuando estemos en tor, va altamente cifrada
+
+Asi que nuestras comunicaciones de todo tipo estaran mayormente seguras
+
+Una Maravilla no..?</p>
+
+
+<h3> Desventajas </h3>
+
+<p> Como todo en la vida no todo es bueno ya que el tener este servicio viene con unas desventajas (actualemtne solo esas he encontrado)</p>
+
+<h4>  -Conexiones lentas/rapidas: </h4>
+<p>   Las personas experimentadas con tor sabran que usar este servidor es muy tardado por el cambio de nodos anteriormente explicado, ya que aveces, estaremos conectados en un pais con una conexion al otro lado del mundo y aveces con un pais cercano, las conexiones aveces llegan a tal punto, que se caera el internet en ciertos puntos </p>
