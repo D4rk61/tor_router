@@ -48,6 +48,7 @@ Una Maravilla no..?</p>
 
 <h3> Desventajas </h3>
 
+
 <p> Como todo en la vida no todo es bueno ya que el tener este servicio viene con unas desventajas (actualemtne solo esas he encontrado)</p>
 
 <h4>  -Conexiones lentas/rapidas: </h4>
@@ -62,5 +63,11 @@ Una Maravilla no..?</p>
   -Netflix
   
   Son solo algunos ejemplos <p>
+  
+  
+<h3> La fama de Tor beoser <h/h3>
+  
+  ![imagen](https://user-images.githubusercontent.com/99152614/193372442-2d3b40f6-d4e9-417a-8892-649f20fb9442.png)
+
   
 
